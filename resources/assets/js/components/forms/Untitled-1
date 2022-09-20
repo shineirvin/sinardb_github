@@ -1,0 +1,30 @@
+- Profile Toko
+    - nama Toko
+    - alamat
+    - no fax
+    - no telp
+    - no hp
+
+- Database Item
+    - id 
+    - Kode Item
+    - Nama Item
+    - Harga Item
+
+- Database Customer
+    - id
+    - kode Customer
+    - Nama
+    - alamat
+    - no hp
+
+- Transaksi master
+    - tanggal
+    - no ( increment )
+    - kode Item
+    - nama item
+    - qty
+    - amount
+    - total
+
+- Print

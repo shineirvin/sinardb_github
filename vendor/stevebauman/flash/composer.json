@@ -1,0 +1,34 @@
+{
+  "name": "stevebauman/flash",
+  "description": "Sweet Alert flash notifications in Laravel.",
+  "keywords": ["flash", "sweet", "alert", "sweetalert", "message", "notification"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8",
+    "orchestra/testbench": "~3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stevebauman\\Flash\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Stevebauman\\Flash\\Tests\\": "tests/"
+    },
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
